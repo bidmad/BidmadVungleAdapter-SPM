@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadVungleAdapter", targets: ["BidmadVungleAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0")),
     .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.7.8"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadVungleAdapter",
-      url: "https://github.com/bidmad/BidmadVungleAdapter-SPM/releases/download/7.2.0-dev.7+7.7.8/BidmadVungleAdapter.xcframework.zip",
-      checksum: "404370f50196a5fe07cf423c03efd7bef86aee8f0c2ac92335bdb4fd6041241c"
+      url: "https://github.com/bidmad/BidmadVungleAdapter-SPM/releases/download/7.2.0+7.7.8/BidmadVungleAdapter.xcframework.zip",
+      checksum: "e90d3db3d8e7bf8447244106262d01263b46e013ad90a8fe4edde1e6b2a30355"
     ),
   ]
 )
